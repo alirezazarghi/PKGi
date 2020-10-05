@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="build.bat" />
+    <ClCompile Include="Resource.cpp" />
+    <ClCompile Include="CreditView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp" />
+    <ClCompile Include="Controller.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Mira.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyJson.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PackageListView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="SourcesView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="Syscall.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="sparse.h" />
+    <ClInclude Include="View.h" />
+    <ClInclude Include="CreditView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h" />
+    <ClInclude Include="Controller.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Mira.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyJson.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PackageListView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="SourcesView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="Syscall.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="View">
+      <UniqueIdentifier>{69643b9d-7dbd-4001-8330-a90d9b299175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{30938934-ab3c-4982-aabc-9066587d65bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
